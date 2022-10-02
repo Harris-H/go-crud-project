@@ -113,7 +113,7 @@ func test(db *sql.DB) {
 }
 func main() {
 	var err error
-	db, err := sql.Open("mysql", "root:Hh013227369688@tcp(127.0.0.1:3306)/go_project01?parseTime=true")
+	db, err := sql.Open("mysql", "root:111111@tcp(127.0.0.1:3306)/go_project01?parseTime=true")
 	if err != nil {
 		log.Fatal(err.Error())
 	}
