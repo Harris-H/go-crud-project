@@ -12,8 +12,6 @@ import (
 	"strconv"
 )
 
-var db *sql.DB
-
 // Person 自定义Person类
 type Person struct {
 	Id        int    `json:"id"`
